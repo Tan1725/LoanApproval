@@ -1,0 +1,31 @@
+# ============================================================
+# REQUIREMENTS.TXT — All the Python libraries this project needs
+# ============================================================
+# Think of this file as a "shopping list" for Python.
+# When you run: pip install -r requirements.txt
+# Python will automatically download and install all of these.
+# ============================================================
+
+# --- Core Data Science Libraries ---
+pandas==2.2.3            # For working with tables/spreadsheets (DataFrames)
+numpy==1.26.4            # For math operations on arrays/numbers
+scikit-learn==1.5.2      # The main ML library — has all our models inside
+
+# --- Advanced ML Model ---
+xgboost==2.1.3           # A powerful tree-based ML model (wins most competitions!)
+
+# --- Explainability ---
+shap==0.46.0             # Explains WHY a model made each prediction
+
+# --- Visualization (Charts & Graphs) ---
+matplotlib==3.9.3        # The classic Python charting library
+seaborn==0.13.2          # Makes matplotlib charts look much prettier
+
+# --- Gender Detection from Names ---
+gender-guesser==0.4.0    # Guesses gender from a person's first name
+
+# --- Dashboard ---
+streamlit==1.41.1        # Turns Python scripts into beautiful web apps
+
+# --- Utilities ---
+joblib==1.4.2            # For saving/loading trained ML models to disk
